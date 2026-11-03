@@ -1,0 +1,14 @@
+__pycache__/
+node_modules/
+ja_error.log
+work/out_web/
+work/shots/
+work/chunks/
+work/*_runtime.json
+work/rt_en.json
+work/run_en.txt
+work/check*.txt
+work/values_*.json
+work/merge_problems.txt
+work/web_candidates.json
+work/web_missing.json

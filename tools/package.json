@@ -1,0 +1,6 @@
+{
+  "name": "fizgig-ja-tools",
+  "private": true,
+  "description": "Extracts UI strings (tools/js_strings.js parses app.js with acorn)",
+  "dependencies": { "acorn": "8.14.0", "acorn-walk": "8.3.4" }
+}

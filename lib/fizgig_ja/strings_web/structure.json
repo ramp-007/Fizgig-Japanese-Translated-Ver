@@ -1,0 +1,23 @@
+{
+ "▼ {0}": "▼ {0}",
+ "▶ {0}": "▶ {0}",
+ "⚠ {0}": "⚠ {0}",
+ "✨ {0}": "✨ {0}",
+ "✨{0}": "✨{0}",
+ "[{0}]": "[{0}]",
+ "{0} — detailed": "{0} — 詳細",
+ "{0}:": "{0}:",
+ "{0} *:": "{0} *:",
+ "≈ {0} tokens at generation ({1} per reference), above the pack's {2} default": "生成時は約 {0} トークン（リファレンス1枚あたり {1}）で、ノードパックの既定値 {2} を上回ります",
+ "≈ {0} tokens at generation ({1} per reference), under the pack's {2} default": "生成時は約 {0} トークン（リファレンス1枚あたり {1}）で、ノードパックの既定値 {2} を下回ります",
+ "On this card ({0} GB free): every part trains at once, nothing rotates - a rotation is {1} epoch(s){2}": "このカード（空き {0} GB）: すべてのパートを同時に学習するためローテーションしません。1ローテーション = {1} エポック{2}",
+ "On this card ({0} GB free): a rotation is {1} window(s) x {2} epoch(s) = {3} epochs{4}": "このカード（空き {0} GB）: 1ローテーション = {1} ウィンドウ × {2} エポック = {3} エポック{4}",
+ " (several parts train together in a window)": "（1つのウィンドウで複数のパートを同時に学習）",
+ " - parts outside the one training stream from system memory, so steps are slower": " - 学習中のパート以外はシステムメモリから読み込むため、ステップが遅くなります",
+ " (several parts train together in a window) - parts outside the one training stream from system memory, so steps are slower": "（1つのウィンドウで複数のパートを同時に学習）- 学習中のパート以外はシステムメモリから読み込むため、ステップが遅くなります",
+ "(~{0} GB each)": "（各約 {0} GB）",
+ "{0} (~{1} GB each)": "{0}（各約 {1} GB）",
+ "✓ Good word. {0}": "✓ 良い単語です。{0}",
+ "Joins cleanly, with a note below. {0}": "きれいにつながります。下に補足があります。{0}",
+ "{0} of {1} sliders free to roll{2}": "{1} 個のスライダーのうち {0} 個を自由に振れます{2}"
+}

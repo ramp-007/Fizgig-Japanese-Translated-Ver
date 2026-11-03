@@ -1,0 +1,45 @@
+Fizgig 日本語化アドオン (Fizgig Japanese Localization Add-on)
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+------------------------------------------------------------------------------
+This work is a derivative of the following Apache-2.0 projects.
+
+1. Fizgig Korean Localization Layer
+   Copyright 2026 ssain3d-lgtm and contributors
+   https://github.com/ssain3d-lgtm/Fizgig-Korean-Translated-Ver
+   Licensed under the Apache License, Version 2.0
+
+   From it this add-on reuses, with changes, the loading mechanism (a .pth file
+   plus an import hook), the web-UI injection (lib/fizgig_ja/web.py), the
+   in-browser translation engine (lib/fizgig_ja/web_ja.js), the dictionary
+   lookup (lib/fizgig_ja/catalog.py), the string extraction and browser
+   harvesting tools under tools/, and the test layout. Changes: renamed
+   package, removal of the Tk (Gizmo / Fizgig 7) layer, a persistent EN/JA
+   switch, Japanese installers, rewritten merge validation. Every derived
+   file carries a "Modified from ..." note. None of the Korean translations
+   are used; the Japanese values were translated from the English originals.
+   The structure templates in lib/fizgig_ja/strings_web/structure.json use the
+   same English keys as that project.
+
+2. Fizgig — LoRA & Fine-tune Studio
+   Copyright 2026 Peter Neill
+   https://github.com/shootthesound/Fizgig
+   Licensed under the Apache License, Version 2.0
+
+   The English keys in lib/fizgig_ja/strings_web/*.json are user-interface
+   strings extracted verbatim from Fizgig's Apache-2.0 licensed source; the
+   Japanese values are this project's translation. No Fizgig source file is
+   modified, bundled or redistributed here.
+
+   Fizgig's own NOTICE lists its third-party components; none of them are used
+   or redistributed by this add-on. See THIRD_PARTY_NOTICES.md in the Fizgig
+   repository for the full list.
+
+"Fizgig" is the name of that upstream project and is used here only to
+describe what this add-on translates. This project is not affiliated with,
+endorsed by, or supported by the Fizgig authors.
